@@ -27,7 +27,7 @@ const ETHERSCAN_API_KEY         = process.env.ETHERSCAN_API_KEY;
 ////////// Configuration of the contract on kovan/ Mainnet //////////
 
 module.exports = {
-   solidity: "0.8.4",
+   solidity: "0.6.6",
    defaultNetwork: "kovan",
    networks: {
       hardhat: {},
